@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		CustomerBase base = new CustomerBase("Store A base");
+		CustomerBase base = new CustomerBase("Store A");
 		base.setCustomers(new Customer(1, "Ivan", "Ivanovich", "Ivanov", "Brest", 1234, "BY1234ALFA1234"));
 		base.setCustomers(new Customer(2, "Ivan", "Petrovich", "Petrov", "Minsk", 5555, "BY5555ALFA1236"));
 		base.setCustomers(new Customer(3, "Petr", "Ivanovich", "Sidorov", "Homel", 3256, "BY5555ALFA1265"));
