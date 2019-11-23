@@ -19,8 +19,8 @@ public class Main {
 		CustomerBaseLogic logic = new CustomerBaseLogic();
 
 		BaseView print = new BaseView();
-		print.printCustomersList(base.getBaseName(), logic.sortNameByAlphabet(base));
-		print.printCustomersList(base.getBaseName(), logic.findByCreditCardNumber(1000, 4000, base));
+		print.printCustomersList(base.getBaseName(), " customers are:", logic.sortNameByAlphabet(base));
+		print.printCustomersList(base.getBaseName(), " on request were find following customers: ", logic.findByCreditCardNumber(1000, 4000, base));
 
 	}
 
